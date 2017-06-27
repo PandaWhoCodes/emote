@@ -1,20 +1,19 @@
-# Emotion-recognition-and-prediction
+# Real time emotion recognition
 
-A real time system to detect human emotions from image and voice and predict its reaction. This is a pre-trained model with an accuracy of **68.7%** over FER 2013 dataset. This project is the direct outcome of my graduation submission at MIT, Pune. The extraction of emotions from audio is done by using [pyAudio](https://github.com/tyiannak/pyAudioAnalysis)
-**Reaction prediction module is under development and is not included yet**
+I'm using a pre-trained model with an accuracy of **68.7%** over FER 2013 dataset. Thanks to @elfadly for providing with the pre trained model.
+If you wish to train your own model download FER2013 from Kaggle
+https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
-# Prerequisites
-```
-Python 3
-OpenCV
-```
-# Installation
-```
-pip install tensorflow numpy scipy h5py
-```
-Download the trained model from the links given in source/trained-model.txt
-# Testing
-```
-python em_model.py
-```
+For more insight on the opencv part check out my previous repo- meme_generator
+Will be adding better face detection classifiers soon
 
+## Paper
+
+[Link](https://github.com/isseu/emotion-recognition-neural-networks/blob/master/paper/Report_NN.pdf)
+
+Download the trained model from the links given in source/trained-model.txt and place them in the same folder
+
+## Run
+```
+python3 nnModel.py
+```
